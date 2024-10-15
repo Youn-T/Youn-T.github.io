@@ -1,0 +1,123 @@
+/* Style gÃŠnÃŠral */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    top: 0px;
+    position: sticky;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+.exclude-h2-style {
+    color: black;
+    text-align: left;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Box avec bordure */
+.box {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Effets au survol */
+.hover-text {
+    color: black;
+    transition: color 0.3s;
+}
+
+.hover-text:hover {
+    color: blue;
+}
+
+.hover-size {
+    font-size: 16px;
+    transition: font-size 0.3s;
+    z-index: -1;
+}
+
+.hover-size:hover {
+    font-size: 24px;
+}
+
+.hover-background {
+    background-color: lightgray;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.hover-background:hover {
+    background-color: yellow;
+}
+
+.hover-scale {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
