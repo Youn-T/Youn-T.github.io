@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Les principales balises HTML</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="./script.js"></script>
+  <title>Mon site web</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -14,74 +13,67 @@
     <h1>Mon Site Web NSI</h1>
     <nav>
       <ul>
+        <li><a href="/html/carnet.html">Carnet</a></li>
+        <li><a href="/html/xss.html">XSS</a></li>
+      </ul>
+      <ul>
         <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#balises-html">Balises HTML</a></li>
-        <li><a href="#css">CSS</a></li>
+        <li><a href="#spes">Mes Spés</a></li>
+        <li><a href="#other-section">Une autre section</a></li>
+        <li><a href="#carnet">Carnet</a></li>
+        <li><a href="#xss">XSS</a></li>
       </ul>
     </nav>
   </header>
 
   <section id="accueil">
     <h2>Bienvenue</h2>
-    <p>Ce site illustre les principales balises HTML et quelques concepts CSS.</p>
-    <img src="logo.png" alt="Logo du site" class="image" onclick="bouton()" id="logo">
+    <p>Bienvenue sur mon site web personnel</p>
+    <h3>J'étudie au lycée brizeux</h3>
+    <img src="images/logo.png" alt="Logo du lycée" class="image" id="logo">
   </section>
 
-  <section id="balises-html">
-    <h2>Les principales balises HTML</h2>
-    <h3>Exemple de titre et de paragraphe</h3>
-    <p>Ceci est un paragraphe de texte qui décrit quelque chose d'important.</p>
-
-    <h3>Exemples des titres</h3>
-    <a href="titles.html">Se reporter à la page suivante</a>
-    
-    <h3>Liste non ordonnée</h3>
+  <section id="spes">
+    <h2>Voici mes spécialités</h2>
+    <h3>Première</h3>
     <ul>
-      <li>Élément 1</li>
-      <li>Élément 2</li>
-      <li>Élément 3</li>
+      <li>Mathématiques</li>
+      <li>Physique Chimie</li>
+      <li>NSI</li>
     </ul>
-
-    <h3>Liste ordonnée</h3>
+    <h3>Terminale</h3>
     <ol>
-      <li>Premier élément</li>
-      <li>Deuxième élément</li>
-      <li>Troisième élément</li>
+      <li>Mathématiques</li>
+      <li>Physqiue Chimie</li>
     </ol>
 
-    <h3>Tableau</h3>
-    <table>
-      <tr>
-        <th>Nom</th>
-        <th>Âge</th>
-      </tr>
-      <tr>
-        <td>Jean</td>
-        <td>30</td>
-      </tr>
-      <tr>
-        <td>Marie</td>
-        <td>25</td>
-      </tr>
-    </table>
   </section>
 
-  <section id="css">
-    <h2>Les principales propriétés CSS</h2>
-    <h3>Exemple de bordure et de padding</h3>
-    <div class="box">
-      <p>Ce texte est entouré d'une bordure noire et d'un padding de 10px.</p>
-    </div>
-
-    <h3>Effets au survol</h3>
-    <p class="hover-text">Passez la souris sur ce texte pour changer sa couleur.</p>
-    <p class="hover-size">Passez la souris sur ce texte pour l'agrandir.</p>
-    <div class="hover-background">Passez la souris ici pour changer la couleur de l'arrière-plan.</div>
-    <button class="hover-scale">Passez la souris sur ce bouton pour l'agrandir.</button>
+  <section id="other-section">
+    <h2>Ceci est une deuxième section</h2>
+    <p>Work in progress</p>
   </section>
 
-  <a href="pagequin'existepas.html">Ceci est un test de la page d'erreur 404</a>
-  
+  <section id="carnet">
+    <h2>Carnet de bord</h2>
+    <a href="/html/carnet.html">
+      <h3>Voici mon carnet de Bord</h3>
+      <p>dans ce carnet je renseignerais ce que j'ai fait à chaque séance</p>
+    </a>
+  </section>
+
+  <section id="xss">
+    <h2>Faille XSS</h2>
+    <a href="/html/xss.html" class="div-block">
+      <img src="images/xss.png" class="div-block-illustration">
+      <div class="div-block-text">
+        <h3>Démonstration d'une XSS</h3>
+        <p>dans cette page se trouve une démonstration de ce qu'est une faille XSS et de comment l'éviter</p>
+      </div>
+
+    </a>
+  </section>
+
   <footer>
     <p>&copy; 2024 Mon Site Web NSI</p>
   </footer>
