@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(109deg,#932121 17%, #202020 46%);
+  background-image: linear-gradient(109deg,#5c2424 17%, #202020 46%);
 }
 
 header {
@@ -77,4 +77,57 @@ h2 {
 
 .about-me-container {
   margin: 5%;
+  background-color: #171717;
+  border-radius: 10px;
+  margin-top: -10px;
+  width: fit-content;
+}
+
+#aboutme h1 {
+  font-size: 2.5rem;
+  padding-top: 35px;
+  margin-top: 50px;
+}
+
+.background-inverse {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(-109deg,#5c2424 17%, #202020 46%);
+  padding-bottom: 10px;
+}
+
+.about-me-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-container-text {
+  width: 40%;
+  margin: 20px;
+  color: white;
+  font-size: 2rem;
+}
+
+.about-me-container-image {
+  width:40%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-image {
+  object-fit: contain;
+  height: 400px;
+}
+
+#carnet h1 {
+  font-size: 2.5rem;
+  padding-top: 35px;
+  margin-top: 50px;
 }
