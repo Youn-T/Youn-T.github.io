@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(109deg,#5c2424 17%, #202020 46%);
+  background-image: linear-gradient(119deg, #5c2424 17%, #202020 46%);
 }
 
 header {
@@ -90,13 +90,13 @@ h2 {
 }
 
 .background-inverse {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(-109deg,#5c2424 17%, #202020 46%);
+  background-image: linear-gradient(-109deg, #5c2424 17%, #202020 46%);
   padding-bottom: 10px;
 }
 
@@ -114,7 +114,7 @@ h2 {
 }
 
 .about-me-container-image {
-  width:40%;
+  width: 40%;
   margin: 20px;
   display: flex;
   align-items: center;
@@ -131,3 +131,34 @@ h2 {
   padding-top: 35px;
   margin-top: 50px;
 }
+
+.carnet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carnet-card-1 {
+  width: 200px;
+  height: 260px;
+  background-color: #000000;
+}
+
+.carnet-card-2 {
+  width: 100px;
+  height: 200px;
+  background-color: #0e0e0e;
+}
+
+.carnet-card-3 {
+  width: 50px;
+  height: 140px;
+  background-color: #1c1c1c;
+}
+
+.carnet-cards {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
