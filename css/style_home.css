@@ -132,6 +132,10 @@ h2 {
   margin-top: 50px;
 }
 
+#carnet a {
+  text-decoration: none;
+}
+
 .carnet-container {
   display: flex;
   flex-direction: column;
