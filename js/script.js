@@ -1,6 +1,7 @@
 import * as data from "../json/carnet.json"  with { type: "json" };
 
 function LoadCarnetTiles() {
+    console.log("loading");
     // let tilesNumber = 5;
     // let jsonObjct;
     console.log(data);
