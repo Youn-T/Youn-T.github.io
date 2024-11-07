@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style_home.css">
+  <script type="module" src="./js/script.js"></script>
   <title>Home Page</title>
 </head>
 
@@ -51,32 +52,16 @@
     <a href="./html/carnet.html">
       <div class="carnet-container">
         <h1>CARNET</h1>
-        <div class="carnet-cards">
-          <div class="carnet-card-3"></div>
-          <div class="carnet-card-2"></div>
-          <div class="carnet-card-1"></div>
-          <div class="carnet-card-2"></div>
-          <div class="carnet-card-3"></div>
+        <div class="carnet-cards" onload="LoadCarnetTiles()">
+          <div class="carnet-card-3" id="carnet-card-1"></div>
+          <div class="carnet-card-2" id="carnet-card-2"></div>
+          <div class="carnet-card-1" id="carnet-card-3"></div>
+          <div class="carnet-card-2" id="carnet-card-4"></div>
+          <div class="carnet-card-3" id="carnet-card-5"></div>
         </div>
       </div>
     </a>
   </section>
-
-  <section id="carnet">
-    <a href="./html/carnet.html">
-      <div class="carnet-container">
-        <h1>CARNET</h1>
-        <div class="carnet-cards">
-          <div class="carnet-card-3"></div>
-          <div class="carnet-card-2"></div>
-          <div class="carnet-card-1"></div>
-          <div class="carnet-card-2"></div>
-          <div class="carnet-card-3"></div>
-        </div>
-      </div>
-    </a>
-  </section>
-
 </body>
 
 </html>

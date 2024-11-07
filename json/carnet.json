@@ -1,0 +1,27 @@
+[
+    {
+        "jour": "15/10/2024",
+        "contexte": "NSI",
+        "CHANGEMENTS": "ajout de la base du site web :\nmodification de index.html\najout des dossiers pour les différents éléments du site\najout de ce carnet\najout de xss.html"
+    },
+    {
+        "jour": "18/10/2024",
+        "contexte": "NSI",
+        "CHANGEMENTS": "modification de la page d'acceuil\najout de la section home\najout de la section about me\najout de la section carnet"
+    },
+    {
+        "jour": "5/11/2024",
+        "contexte": "NSI",
+        "CHANGEMENTS": "NaN"
+    },
+    {
+        "jour": "5/11/2024",
+        "contexte": "NSI",
+        "CHANGEMENTS": "NaN"
+    },
+    {
+        "jour": "5/11/2024",
+        "contexte": "NSI",
+        "CHANGEMENTS": "NaN"
+    }
+]
