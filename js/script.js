@@ -1,4 +1,4 @@
-import * as data from "../json/carnet.json" assert { type: 'json' };
+import * as data from "../json/carnet.json";
 
 function LoadCarnetTiles() {
     // let tilesNumber = 5;
