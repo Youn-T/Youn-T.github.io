@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  color: rgb(44 62 80);
+  padding: 10px;
+  top: 0px;
+  position: sticky;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style_home.css">
+  <script type="module" src="./js/script.js"></script>
+  <title>Home Page</title>
+</head>
+
+<body class="background">
+  <header>
+    <h1>NSI</h1>
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#carnet">Carnet</a></li>
+        <li><a href="#cybersecurity">Cybersecurity</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="homepage-div">
+    <h2 class="homepage-title">Bienveue sur mon <br> <span style="color: red;">SITE WEB</span> <br> fait en <span
+        style="color: red;">NSI</span> !</h1>
+      <img src="./images/webstite_homepage_il.png" class="homepage-illustration">
+  </div>
+  <section id="aboutme">
+    <div class="background-inverse">
+      <h1>About Me</h1>
+      <div class="about-me-container">
+        <div class="about-me-container-content">
+          <div class="about-me-container-text">
+            <h3>Je suis lycéen et j'étudie au lycée Brizeux</h3>
+            <h3>Voici mes trois spécialités :</h3>
+            <ul>
+              <li>Mathématiques</li>
+              <li>Physique Chimie</li>
+              <li>NSI</li>
+            </ul>
+          </div>
+          <div class="about-me-container-image">
+            <img src="./images/brizeux.jpg" class="about-me-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="carnet">
+    <a href="./html/carnet.html">
+      <div class="carnet-container">
+        <h1>CARNET</h1>
+        <div class="carnet-cards" onload="LoadCarnetTiles()">
+          <div class="carnet-card-3" id="carnet-card-1"></div>
+          <div class="carnet-card-2" id="carnet-card-2"></div>
+          <div class="carnet-card-1" id="carnet-card-3"></div>
+          <div class="carnet-card-2" id="carnet-card-4"></div>
+          <div class="carnet-card-3" id="carnet-card-5"></div>
+        </div>
+      </div>
+    </a>
+  </section>
+</body>
+
+</html>
